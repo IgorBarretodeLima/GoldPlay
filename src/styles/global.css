@@ -1,0 +1,27 @@
+/* ---- RESET ---- */
+*{
+border: 0;
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+:root{
+    --color-brand:#F5B700;
+    --color-foreground:#F9F9F9;
+    --color-black:#191919;
+    --color-gray:#2A2A2A;
+    --color-surface:#2A2A35;
+
+    --font-size-h1:40px;
+    --font-size-h2:35px;
+    --font-size-h3:30px;
+    --font-size-h4:25px;
+    --font-size-h5:20px;
+
+    --font-body: "Bebas Neue", sans-serif;
+    --font-size-body:16px;
+    --font-title:"Inter", sans-serif;
+}

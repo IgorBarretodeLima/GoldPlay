@@ -1,0 +1,63 @@
+@import url(./global.css);
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: var(--color-black);
+}
+.header-navigation{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+.itens-navigation{
+    display: flex;
+    gap: 25px;
+
+}
+.itens-navigation li a{
+    color: var(--color-foreground);
+    font-family: var(  --font-title);
+}
+
+.container-search{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    
+}
+
+.container-search form{
+    border: 1px solid var(--color-brand);
+    border-radius: 5px;
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+.container-search form input{
+    background-color: transparent;
+    color:var(--color-foreground);
+}
+.container-search form input:focus{
+    outline: none;
+}
+.container-search form button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.btnHeader{
+    padding: 10px 15px;
+    background-color: var(--color-brand);
+    color: var(--color-black);
+    border-radius: 5px ;
+    font-family: var( --font-body);
+    font-size: var(--font-size-body);
+    font-weight: 700;
+}
+       
