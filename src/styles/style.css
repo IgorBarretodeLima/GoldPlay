@@ -72,6 +72,7 @@ main{
     justify-content: flex-end;
     display: flex;
     padding-bottom: 60px;
+    padding-left: 60px;
 
 }    
 h1{
@@ -83,6 +84,11 @@ h1{
 }
 h1 span{
     color: var(--color-brand);
+}
+h2{
+    color: var(--color-foreground);
+    font-family: var(--font-title);
+    font-size: var( --font-size-h2);
 }
 
 main  p {
@@ -110,4 +116,37 @@ gap: 20px;
 .btnOutline{
     color: var(--color-brand);
     border: 1px solid var(--color-brand);
+}
+.section-genre h2 span{
+     color: var(--color-brand);
+
+}
+.section-genre{
+    background-color: var(--color-black);
+    height: 545px;
+    position: relative;
+}
+.container-genre{
+
+}
+.card-genre{
+    position: relative;
+
+}
+.datails-genre{
+    position:absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.datails-genre p{
+    color: var(--color-foreground);
+    font-family: var( --font-body);
+    font-size: var(--font-size-body);
+
+}
+.datails-genre h3{
+    color: var(--color-foreground);
+    font-family: var( --font-title);
+    font-size: var(--font-size-h3);
+    font-weight: 400;
 }
