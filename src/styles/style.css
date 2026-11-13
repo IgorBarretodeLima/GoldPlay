@@ -16,19 +16,16 @@ header{
 .itens-navigation{
     display: flex;
     gap: 25px;
-
 }
 .itens-navigation li a{
     color: var(--color-foreground);
-    font-family: var(  --font-title);
+    font-family: var(--font-title);
 }
 
 .container-search{
     display: flex;
     gap: 20px;
     align-items: center;
-
-    
 }
 
 .container-search form{
@@ -55,57 +52,48 @@ header{
     padding: 10px 15px;
     background-color: var(--color-brand);
     color: var(--color-black);
-    border-radius: 5px ;
-    font-family: var( --font-body);
+    border-radius: 5px;
+    font-family: var(--font-body);
     font-size: var(--font-size-body);
     font-weight: 700;
 }
 main{
     height: 80vh;
-    background-image:url(../assets/images/background_menu.svg) ;
+    background-image:url(../assets/images/background_menu.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--color-black);
     gap: 20px;
     flex-direction: column;
-    height: 80vh;
     justify-content: flex-end;
     display: flex;
     padding-bottom: 60px;
     padding-left: 60px;
-
 }    
 h1{
     color: var(--color-foreground);
     font-family: var(--font-title);
-    font-size: var( --font-size-h1);
+    font-size: var(--font-size-h1);
     width: 492px;
     font-weight: 400;
 }
 h1 span{
     color: var(--color-brand);
 }
-h2{
-    color: var(--color-foreground);
-    font-family: var(--font-title);
-    font-size: var( --font-size-h2);
-}
 
-main  p {
- color: var(--color-foreground);
- font-size: var(--font-size-body);
- font-family: var(--font-body);
+main p {
+    color: var(--color-foreground);
+    font-size: var(--font-size-body);
+    font-family: var(--font-body);
 }
 main nav {
-display: flex;
-gap: 20px;
-
+    display: flex;
+    gap: 20px;
 }
 .btnPrimary, .btnOutline{
     padding: 10px 30px;
-    border-radius: 5px ;
-    
-    font-family: var( --font-body);
+    border-radius: 5px;
+    font-family: var(--font-body);
     font-size: var(--font-size-body);
     font-weight: 700;
 }
@@ -117,36 +105,48 @@ gap: 20px;
     color: var(--color-brand);
     border: 1px solid var(--color-brand);
 }
+.section-genre h2{
+    color: var(--color-foreground);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);
+    font-weight: 400;
+    width: 1120px;
+}
 .section-genre h2 span{
-     color: var(--color-brand);
-
+    color: var(--color-brand);
 }
 .section-genre{
     background-color: var(--color-black);
-    height: 545px;
+    height: auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 60px 0;
 }
 .container-genre{
-
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    gap: 20px;
 }
 .card-genre{
     position: relative;
-
 }
 .datails-genre{
     position:absolute;
     bottom: 15px;
     left: 15px;
+    color: var(--color-foreground);
 }
 .datails-genre p{
     color: var(--color-foreground);
-    font-family: var( --font-body);
+    font-family: var(--font-body);
     font-size: var(--font-size-body);
-
 }
 .datails-genre h3{
     color: var(--color-foreground);
-    font-family: var( --font-title);
+    font-family: var(--font-title);
     font-size: var(--font-size-h3);
     font-weight: 400;
 }
