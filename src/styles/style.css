@@ -60,4 +60,18 @@ header{
     font-size: var(--font-size-body);
     font-weight: 700;
 }
-       
+main{
+    height: 80vh;
+    background-image:url(../assets/images/background_menu.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--color-black);
+
+
+}    
+h1{
+    color: var(--color-foreground);
+    font-family: var(--font-title);
+    font-size: var( --font-size-h1);
+    width: 492px;
+}
