@@ -66,7 +66,8 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--color-black);
-
+    gap: 20px;
+    flex-direction: column;
 
 }    
 h1{
@@ -74,4 +75,35 @@ h1{
     font-family: var(--font-title);
     font-size: var( --font-size-h1);
     width: 492px;
+    font-weight: 400;
+}
+h1 span{
+    color: var(--color-brand);
+}
+
+main  p {
+ color: var(--color-foreground);
+ font-size: var(--font-size-body);
+ font-family: var(--font-body);
+}
+main nav {
+display: flex;
+gap: 20px;
+
+}
+.btnPrimary, .btnOutline{
+    padding: 10px 30px;
+    border-radius: 5px ;
+    
+    font-family: var( --font-body);
+    font-size: var(--font-size-body);
+    font-weight: 700;
+}
+.btnPrimary{
+    background-color: var(--color-brand);
+    color: var(--color-black);
+}
+.btnOutline{
+    color: var(--color-brand);
+    border: 1px solid var(--color-brand);
 }

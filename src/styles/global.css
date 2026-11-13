@@ -15,13 +15,13 @@ box-sizing: border-box;
     --color-gray:#2A2A2A;
     --color-surface:#2A2A35;
 
-    --font-size-h1:40px;
+    --font-size-h1:64px;
     --font-size-h2:35px;
     --font-size-h3:30px;
     --font-size-h4:25px;
     --font-size-h5:20px;
 
-    --font-body: "Bebas Neue", sans-serif;
+    --font-title: "Bebas Neue", sans-serif;
     --font-size-body:16px;
-    --font-title:"Inter", sans-serif;
+    --font-body:"Inter", sans-serif;
 }
